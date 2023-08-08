@@ -1,0 +1,20 @@
+2023-08-08T08:09:41.594+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<D:\Goworks\src\nacos\log>   cacheDir:<D:\Goworks\src\nacos\cache>
+2023-08-08T08:09:43.655+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods_srv.json","group":"dev","tenant":"9bfd42ff-31b4-4f0a-990b-ca737996b3b8"}>, call domain error:<Get "http://127.0.0.1:8849/nacos/v1/cs/configs?dataId=goods_srv.json&group=dev&tenant=9bfd42ff-31b4-4f0a-990b-ca737996b3b8": dial tcp 127.0.0.1:8849: connectex: No connection could be made because the target machine actively refused it.> , result:<>
+2023-08-08T08:09:45.693+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods_srv.json","group":"dev","tenant":"9bfd42ff-31b4-4f0a-990b-ca737996b3b8"}>, call domain error:<Get "http://127.0.0.1:8849/nacos/v1/cs/configs?group=dev&tenant=9bfd42ff-31b4-4f0a-990b-ca737996b3b8&dataId=goods_srv.json": dial tcp 127.0.0.1:8849: connectex: No connection could be made because the target machine actively refused it.> , result:<>
+2023-08-08T08:09:47.751+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods_srv.json","group":"dev","tenant":"9bfd42ff-31b4-4f0a-990b-ca737996b3b8"}>, call domain error:<Get "http://127.0.0.1:8849/nacos/v1/cs/configs?dataId=goods_srv.json&group=dev&tenant=9bfd42ff-31b4-4f0a-990b-ca737996b3b8": dial tcp 127.0.0.1:8849: connectex: No connection could be made because the target machine actively refused it.> , result:<>
+2023-08-08T08:09:47.751+0800	[31mERROR[0m	config_client/config_client.go:202	get config from server error:Get "http://127.0.0.1:8849/nacos/v1/cs/configs?dataId=goods_srv.json&group=dev&tenant=9bfd42ff-31b4-4f0a-990b-ca737996b3b8": dial tcp 127.0.0.1:8849: connectex: No connection could be made because the target machine actively refused it. 
+2023-08-08T08:09:47.752+0800	[31mERROR[0m	config_client/config_client.go:216	get config from cache  error:failed to read config cache file:D:\Goworks\src\nacos\cache\config\goods_srv.json@@dev@@9bfd42ff-31b4-4f0a-990b-ca737996b3b8,err:open D:\Goworks\src\nacos\cache\config\goods_srv.json@@dev@@9bfd42ff-31b4-4f0a-990b-ca737996b3b8: The system cannot find the path specified.  
+2023-08-08T08:10:47.072+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<D:\Goworks\src\nacos\log>   cacheDir:<D:\Goworks\src\nacos\cache>
+2023-08-08T08:10:47.358+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods_srv.json","group":"dev","tenant":"9bfd42ff-31b4-4f0a-990b-ca737996b3b8"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2023-08-08T08:10:47.365+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods_srv.json","group":"dev","tenant":"9bfd42ff-31b4-4f0a-990b-ca737996b3b8"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2023-08-08T08:10:47.371+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods_srv.json","group":"dev","tenant":"9bfd42ff-31b4-4f0a-990b-ca737996b3b8"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2023-08-08T08:10:47.371+0800	[31mERROR[0m	config_client/config_client.go:202	get config from server error:[404] config data not exist
+ 
+2023-08-08T08:10:47.372+0800	[33mWARN[0m	config_client/config_client.go:207	[client.GetConfig] config not found, dataId: goods_srv.json, group: dev, namespaceId: 9bfd42ff-31b4-4f0a-990b-ca737996b3b8.
+2023-08-08T08:22:40.503+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<D:\Goworks\src\nacos\log>   cacheDir:<D:\Goworks\src\nacos\cache>
