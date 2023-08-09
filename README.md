@@ -1,3 +1,9 @@
+### Install and use
+
+```go
+go get github.com/goland-cn/month-text
+```
+
 ### Nacos config msg
 
 ------
@@ -136,4 +142,21 @@ func MsgDxb() {
 		&sendMsg.Dxb{},
 	)
 }
+```
+
+### Redis Sentry
+
+------
+
+- check sentry
+
+```go
+ cat sentinel.conf
+```
+
+- check client-server
+
+```go
+redis-cli -h 127.0.0.1 -p 6380
+info replication
 ```
