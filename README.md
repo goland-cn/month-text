@@ -70,9 +70,9 @@ func main() {
 ```go
 func SendMessageAly() {//aly
 	payment := MsgInstance(
-		"1838393649",
+		"",
 		"d09c29eea08845a8a2d5bb4d710b3902",
-		"17519385442",
+		"",
 		"[小老八有限公司],验证码30分钟内有效:845268",
 		&Aly{}, //*根据传入结构体判断
 	)
@@ -81,9 +81,9 @@ func SendMessageAly() {//aly
 
 func SendMessageDxb() {//dxb
 	payment := MsgInstance(
-		"1838393649",
+		"",
 		"d09c29eea08845a8a2d5bb4d710b3902",
-		"17519385442",
+		"",
 		"[小老八有限公司],验证码30分钟内有效:845268",
 		&Dxb{}, //*根据传入结构体判断
 	)
@@ -135,9 +135,9 @@ func GetSet() {
 
 // MsgDxb 短信宝
 func MsgDxb() {
-	sendMsg.MsgInstance("1838393649",
+	sendMsg.MsgInstance("",
 		"d09c29eea08845a8a2d5bb4d710b3902",
-		"17519385442",
+		"",
 		"[小老八有限公司],验证码30分钟内有效:845268",
 		&sendMsg.Dxb{},
 	)
